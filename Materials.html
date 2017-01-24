@@ -1,0 +1,241 @@
+
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Advanced Graphics & Visualisation</title>
+
+		<meta name="description" content="Advanced Graphics & Visualisation - AR">
+		<meta name="author" content="Paul Vesey">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Paul Vesey Styles -->
+		<link rel="stylesheet" href="css/veseyNotes.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+
+		<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Advanced Graphics & Visualisation</h1>
+					<h3>Materials & Shaders</h3>
+					<p>
+						<small>Paul Vesey</small><br>
+						<small><a href="mailto:paul.vesey@lit.ie">paul.vesey@lit.ie</a></small><br>
+						<small>Created using <a href="http://lab.hakim.se/reveal-js/">Reveal.js</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Materials and Shaders</h2>
+					<p class='pleft'>In the past, materials were very different to shaders.  Materials involved replicating the material of a real world object, and shaders were more involved with how light would interact with the materia.  At this point in time it is more common to have both integrated together.  This can cause confusion from time to time, but for the most part the terms are used interchangeibly.  I will use the term 'Shader' for digital, and 'Material' for real world materials</p>
+					<p>There are two general forms of shader:</p>
+					<ul>
+						<li>Procedural</li>
+						<li>Mapped / Image based</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Procedural Shaders</h2>
+					<p class="pleft">
+						Procedural Shaders are written in code that the rendering engine can understand.
+					</p>
+					<ul>
+						<li>Very flexible, infinite scale, infinite resolution</li>
+						<li>Infinite editability, if you know how</li>
+						<li>Can be specific to a rendering engine, so not portable from system to system</li>
+						<li>The Autodesk Material Library is procedural</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>Procedural Shader</h2>
+					<h3>MDL - Material Definition Language</h3>
+					<p>Produced by NVIDIA. - also do Mental Ray</p>
+				</section>
+
+				<section>
+					<a href="https://share.allegorithmic.com/">https://share.allegorithmic.com/</a>
+					<a href="https://www.allegorithmic.com/">https://www.allegorithmic.com/</a>
+					<a href="https://source.allegorithmic.com/#/substances/home">https://source.allegorithmic.com/#/substances/home</a>
+
+				</section>
+
+				<section>
+					<h2>Blinn Material</h2>
+					<ul>
+						<li>Wood, Metal, Plastic </li>
+						<li>not great at metal</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Phong</h2>
+					<ul>
+						<li>Metal</li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Anisotropic</h2>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Map Types</h2>
+					<ul>
+						<li>Color/Defuse</li>
+						<li>Transparancy</li>
+						<li>Ambient Color</li>
+						<li>Incandecence</li>
+						<li>Bump</li>
+						<li>Translucene/Tranaparency</li>
+						<li>Specular</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Color/Defuse Map</h2>
+					<img src="" alt="Color/Defuse Map">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2></h2>
+					<img src="" alt="Color/Defuse Map">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2></h2>
+					<img src="" alt="Color/Defuse Map">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2></h2>
+					<img src="" alt="Color/Defuse Map">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+
+
+
+
+
+
+
+				<section>
+				<h2>Credits</h2>
+				<p>Presentation Framework <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a></p>
+				<p>Code Syntax Highlights <a href="https://highlightjs.org/">highlights.js</a></p>
+				</section>
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
