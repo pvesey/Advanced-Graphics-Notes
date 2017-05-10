@@ -1,0 +1,448 @@
+% Beamer Presentation and Lecture Note Template
+% Version 0.1
+% by Paul Vesey
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Switch between these for presentation
+% and A4 Lecture Notes
+%\documentclass[ignorenonframetext,red]{beamer}     % use this for presentations and slide handouts
+%\documentclass[ignorenonframetext]{beamer}     % use this for presentations and slide handouts
+%\documentclass[a4paper]{article}     % use this to print the notes
+
+%\documentclass{beamer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Turn off all of these for A4 Notes
+%
+\mode<presentation> {
+%\usetheme{lankton-keynote} % Seperate Download
+%\usetheme{Madrid}
+\usetheme{Antibes}
+\setbeamercovered{invisible}
+\setbeamertemplate{navigation symbols}{} 
+}
+
+%%\mode<presentation>{}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage[nomain, xindy, toc, acronym]{glossaries}
+\include{refs/glossary}
+\include{refs/acronyms}
+
+\makeglossaries{}
+\usepackage[xindy]{imakeidx}
+\makeindex
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%THIS IS FOR PRINTING SLIDE HANDOUTS
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%THIS IS FOR PRINTING A4 NOTES
+%
+%\usepackage{beamerarticle}    % Turn this on for A4 notes
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\renewcommand\verbatim@font{\color{red}\normalfont\ttfamily}
+
+
+
+
+%\usepackage{bm} 
+% For typesetting bold math (not \mathbold)
+%\logo{\includegraphics[height=0.6cm]{yourlogo.eps}}
+%
+\title[3D Design]{3D Design}
+%
+\author{Paul Vesey}
+\institute[LIT]
+{
+Limerick Institute of Technology \\
+\medskip
+{\emph{paul.vesey@lit.ie}}
+}
+\date{2014-2015}
+% \today will show current date. 
+% Alternatively, you can specify a date.
+
+\begin{document}
+%
+
+%\lstset{language=C++, frame=single}
+
+\lstset{language=HTML,
+				basicstyle=\small,
+				breaklines=true,
+        numbers=left,
+        numberstyle=\tiny,
+        showstringspaces=false,
+        aboveskip=-20pt,
+        frame=leftline
+        }
+
+
+
+\tableofcontents
+\newpage
+
+
+
+\begin{frame}
+\titlepage
+\end{frame}\begin{center}\line(1,0){250}\end{center}
+%
+%
+
+
+\section{Introduction}
+
+
+
+
+\begin{frame}
+\frametitle{About me}
+\begin{itemize}
+	\item Paul Vesey
+	\item 13B09
+	\item email is best
+\end{itemize}
+
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+
+
+\begin{frame}
+\frametitle{The course in a nutshell}
+\begin{itemize}
+	\item Impact on Building Users
+	\item Regulations
+	\item Water Systems (Hot, Cold, Waste)
+	\item HVAC Systems
+	\item Power \& Lighting Systems
+	\item Fire Systems
+	\item Acoustics
+\end{itemize}
+\end{frame}\begin{center}\line(1,0){250}\end{center}
+
+
+ 
+ \begin{frame}
+\frametitle{Learning Outcomes}
+On successful completion of this module the learner will/should be able to\ldots
+\begin{enumerate}
+	\item Demonstrate knowledge across a variety of building services systems.
+	\item Integrate the concepts of sustainable building services strategies across multiple building types.
+	\item Demonstrate conceptual drawing skills, where the Building Services systems compliment the interior design.
+	\item Integrate lighting strategies to compliment specific building types
+	\item Identify \& interact effectively in a learning group on the impact of building services systems on the interior design.
+\end{enumerate}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+\begin{frame}
+\frametitle{Indicative Syllabus}
+
+\begin{itemize}
+	\item \textbf{The human body and the built environment}
+	\item\textbf{Requirements of Building Regulations.}
+	\item\textbf{Influence of European Directives and National Climate Change Strategy on the selection of
+Building Services strategies.}
+	\item\textbf{Integration of building services systems into the buildings interior design.} Lifts, duct-work, Energy plant-rooms, services distribution, terminal units. 
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+\begin{frame}
+\frametitle{Indicative Syllabus}
+Impact of various systems on the interior space:
+\begin{itemize}
+	\item \textbf{Hot and cold water systems}- Legionnella, energy use, design features
+	\item\textbf{Waste water} - single and vented stack designs.
+	\item\textbf{Heating \& cooling} - wet and dry systems, environmental temperature. energy efficiency \& control, maximization of passive measures, Active systems. Heating and cooling generation.
+	\item\textbf{Ventilation systems} - air quality, natural and mechanical ventilation. HVAC system categorization. Horizontal and vertical distribution routes.
+	\item\textbf{Power systems} - flexible system design, power circuits, electrical safety, utility loads
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+\begin{frame}
+\frametitle{Indicative Syllabus}
+Impact of various systems on the interior space:
+\begin{itemize}
+	\item\textbf{Lighting systems} - day-lighting, glare, heat \& its control, principles of artificial lighting design, fixture selection, controls, maintenance, emergency lighting.
+	\item\textbf{Fire detection systems} - electrical and mechanical system types \& their requirements
+	\item\textbf{Acoustics} - design principles, Building Regulations, noise criteria/rating with spaces, absorption, room design and selection of surfaces.
+\end{itemize}
+
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+\begin{frame}
+\frametitle{Assessment}
+\textbf{100\% Continuous Assessment}
+\begin{table}[htp]
+	\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Assessment} & \textbf{Proportion} \\
+			\hline
+			End of Year Project &		40\% \\
+			Services Study Project &   	60\% \\
+			\hline
+		\end{tabular}
+		\label{tab:Assessments}
+\end{table}
+\begin{itemize}
+	\item The End of Year Project will be a complete design implementation on a skeletal building.\\
+	\item The Services Study Project will be broken out over the course of the year into smaller components of typically 10\% each.
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+\begin{table}[htp]
+	\centering
+		\scalebox{1.0}{
+		\begin{tabular}{|c|r|l|}
+			\hline
+			\textbf{Week} & \textbf{Date } & \textbf{Activity}	\\
+			\hline
+			1		&	15/9	& Intro / Revit Revision				\\	
+			2		&	22/9	& Revit Revision 								\\	
+			3		&	29/9	& Revit	to Unity 3D							\\	
+			4		&	6/10	& Unity 3D Workflow							\\	
+			5		&	13/10	& Unity 3D Terrain 							\\	
+			6		&	20/10	& Unity 3D Controllers					\\	
+			7		&	27/10	& Bank Holiday									\\	
+			8		&	3/11	& 								\\	
+			9 	&	10/11	& 								\\	
+			10	&	17/11	& 								\\
+			11	&	24/11	& 								\\
+			12	&	1/12	& 	\\
+			13	&	8/12	& Christmas Exams								\\
+					& 			& \textbf{Christmas Break}			\\
+			14	& 5/1		&		\\
+			15	& 12/1	&				\\
+			16	& 19/1	&					\\
+			17	& 26/1	&							\\										
+			18	& 2/2		&							\\
+			19	& 9/2		&	(Float)												\\
+			20	& 16/2	&	 	\\
+			21	& 23/2	&												\\										
+			22	& 2/3		&										\\
+			23	& 9/3		&											\\									
+			24	& 16/3	&											\\
+			25	& 23/3	&											\\										
+				  & 			& \textbf{Easter Break}					\\
+			26	& 13/4	&	EoY Project Support						\\
+			27	& 20/4	&	EoY Project Support						\\									
+			28	& 27/4	&	Presentations									\\
+				  & 4/5		& Revision/Exam Week 						\\			
+			\hline
+		\end{tabular}}
+				\label{tab:LessonPlanLong}
+\end{table}
+
+
+
+
+\section{Unity3D}
+
+
+
+\begin{frame}
+\frametitle{Unity3D}
+\begin{itemize}
+	\item Unity is one of many Game Engines
+	\item It is not the most sophisticated
+	\item We will need to develop our vocabulary to effectively learn this (and other) visualization tools
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+\begin{frame}
+\frametitle{Unity3D - Controllers}
+Controllers generally come in two main flavors
+\begin{itemize}
+	\item First Person Controller - you just see a view of the game environment
+	\item Third Person Controller - you see a character that is supposed to represent the player; this character is normally animated.
+\end{itemize}
+Both types are really a camera that moves through the game environment.  The first person controller is the easier of the two to implement.
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Unity - Colliders}
+By default, a controller can pass through game objects.  In order to make the environment more realistic, we create digital barriers in the game environment that our controllers are not allowed to pass through.  This simple paradigm allows the creation of a wide range of game experiences.
+\begin{itemize}
+	\item Bump into things
+	\item Activate functionality (such as open a door)
+	\item Press a button (game or menu)
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+\begin{frame}
+\frametitle{Unity - Assets}
+Assets are anything that we can put into the game.  This includes
+\begin{itemize}
+	\item Solid and Mesh objects
+	\item Terrain
+	\item Cameras
+	\item Materials
+	\item Scripts
+	\item Lights 
+	\item etc.
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Unity Assets - Objects}
+For the most part, we will be using 'fbx' objects from Revit or 3D Studio Max.  However there are a number of built-in assets that we can also take advantage of, such as;
+\begin{itemize}
+	\item Trees (animated)
+	\item Skyboxes - combination of light source and sky visuals.
+\end{itemize}
+\end{frame}
+\begin{center}\line(1,0){250}\end{center}
+
+
+\section{Practicals}
+
+
+\subsection{Import Revit FBX asset into Unity}
+
+
+
+\subsection{Interaction - Using Controllers}
+
+
+\subsection{Create Scene and Interior Lighting}
+
+
+\subsection{Handling Materials}
+
+
+\subsection{Animate a door}
+Look and Hinges in detail
+Look at Animations and how to trigger via a script..
+
+
+\section{Practicals and Assignments}
+
+
+
+\section{3D Studio}
+
+\subsection{Design Study - Depth of Field}
+
+
+
+Editable mesh should not be used anymore.  Use Editable Poly..
+
+
+
+
+
+
+
+\newpage
+
+%
+%This is some text 
+
+
+\subsection{Make a Chest of Drawers}
+
+to include chamfers
+recesses
+legs
+union and subtraction
+
+
+
+
+\subsection{Render Scene with Depth of Field x3 Renders}
+Mental Ray Render with Depth of Field selected..
+
+
+
+\bibliographystyle{plainnat}
+%\bibliographystyle{Classes/CUEDbiblio}
+%\bibliographystyle{Classes/jmb}
+%\bibliographystyle{Classes/jmb} % bibliography style
+\nocite{*}
+%\renewcommand{\bibname}{Bibliography} % changes default name References to Bibliography
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\bibliography{refs/references} % References file
+
+\newpage
+
+\printindex
+\newpage
+
+
+
+
+
+\end{document}
